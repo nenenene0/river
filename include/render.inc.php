@@ -1,6 +1,18 @@
 <?php
 
-	// called from page.inc.php if url is not home page, and if url exists. (page exists in the page folder)
+	class Render
+	{
+		var $page = 'yes';
 
-	// construct the 
-	echo $url;
+
+
+
+
+
+
+		function render($layout){
+
+			$this->completePage = $this->page;
+			exit($this->completePage);
+		}
+	};

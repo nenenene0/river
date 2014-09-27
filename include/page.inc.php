@@ -13,4 +13,5 @@
 
 	// check if $url exists, and then pass the file along to render.inc.php
 	require_once (ROOT . DS . 'include' . DS . 'render.inc.php');
-	
+	$rendering = new RenderPage();
+	$rendering->render(true);
