@@ -28,5 +28,5 @@ Features
 License
 ---------
 
-River PHP Framework is released under GNU GPL.
+River PHP Framework is released under MIT License.
 
