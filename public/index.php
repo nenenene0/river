@@ -6,5 +6,3 @@
 	$url = $_GET['url'];
 
 	require_once (ROOT . DS . 'include' . DS . 'main.inc.php');
-
-	echo 'Welcome to River PHP Framework'.$asdf;
