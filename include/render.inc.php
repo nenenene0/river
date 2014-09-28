@@ -30,9 +30,9 @@
 			$this->pagesList = pageList();
 
 			if($this->layout == true)
-				include('/var/www/river/layouts/layout.html.php');
+				include(ROOT . DS . 'layouts/layout.html.php');
 			else
-				include('/var/www/river/layouts/nulldesign.html.php');
+				include(ROOT . DS . 'layouts/nulldesign.html.php');
 			exit();
 		}
 	}
@@ -63,9 +63,9 @@
 			$this->pagesList = pageList();
 
 			if($this->layout == true)
-				include('/var/www/river/layouts/layout.html.php');
+				include(ROOT . DS . 'layouts/layout.html.php');
 			else
-				include('/var/www/river/layouts/nulldesign.html.php');
+				include(ROOT . DS . 'layouts/nulldesign.html.php');
 			exit();
 		}
 	}
