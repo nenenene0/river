@@ -6,7 +6,7 @@
 
   <title><?php echo $this->title; ?></title>
   <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="author" content="Bhaswanth Blan">
 
   <link rel="stylesheet" href="/assets/css/main.css">
 
