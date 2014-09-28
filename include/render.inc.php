@@ -50,7 +50,6 @@
 			$this->name = ucwords(preg_replace('/_/', ' ', $this->name[0]));
 			$this->title = $this->name.' | '.$_SITE_NAME;
 			$this->layout = $layout;
-			$this->content = '<h3>' . $this->name . '</h3>' . $this->content;
 
 			// This is a bad practise since this is a class. Need to change.
 			$this->display();
