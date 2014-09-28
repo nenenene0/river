@@ -18,5 +18,5 @@ a:hover{color: black; text-decoration: underline;}
 .highlight{background:grey; color:black; padding:4px; border-radius: 5px; border:1px solid white;}
 
 
-.footer{text-align: center; position: fixed; bottom: 0px; width: 100%; left: 0px; height:2em;}
+.footer{text-align: center; position: fixed; bottom: 0px; width: 100%; left: 0px; height:2em; background-color: white;}
 .footer a{color: grey;}
