@@ -10,9 +10,10 @@ a:hover{color: black; text-decoration: underline;}
 .header a:hover{color: white; background-color: black;}
 
 .content{padding:10px;}
-.content-left{width:75%; float:left;}
-.content-right{width:20%; float:left; border-left: 1px solid grey; word-wrap: break-word;}
-.content-right ul{list-style-type:none;}
+.content-left{width:70%; float:left;}
+.content-right{width:20%; float:left; border-left: 1px solid grey; font-size: 0.7em;}
+.content-right ul{list-style-type:none; padding:0px;}
+.content-right ul li{margin-bottom: 10px;}
 
 .highlight{background:grey; color:black; padding:4px; border-radius: 5px; border:1px solid white;}
 
