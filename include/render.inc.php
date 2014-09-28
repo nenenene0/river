@@ -1,5 +1,7 @@
 <?php
 
+	require_once (ROOT . DS . 'include' . DS . 'page_list.inc.php');
+
 	class RenderPage
 	{
 		// Call RenderPage with the page name(root/pages), if it exists it is rendered. Else static page_down is rendered.
@@ -25,6 +27,8 @@
 		}
 
 		function display() {
+			$this->pagesList = pageList();
+
 			if($this->layout == true)
 				include('/var/www/river/layouts/layout.html.php');
 			else
@@ -56,6 +60,8 @@
 		}
 
 		function display() {
+			$this->pagesList = pageList();
+
 			if($this->layout == true)
 				include('/var/www/river/layouts/layout.html.php');
 			else

@@ -18,13 +18,17 @@
 <body>
   <div class="wrapper">
 
-    <?php include('header.html'); ?>
+    <?php include('header.html.php'); ?>
     
-    <div class="content">
+    <div class="content content-left">
       <?php echo $this->content; ?>
     </div>
 
-    <?php include('footer.html'); ?>
+    <div class="content content-right">
+      <?php include('pages_list.html.php'); ?>
+    </div>
+
+    <?php include('footer.html.php'); ?>
 
   </div>
 </body>

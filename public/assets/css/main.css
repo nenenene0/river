@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 html{height:100%;}
-body{width:80%; height:100%; font-family: 'Source Sans Pro', sans-serif;; font-size: 1.3em; margin:0px; background-color: #fff; color: black; margin:auto;}
+body{width:80%; height:100%; font-family: 'Source Sans Pro', sans-serif;; font-size: 1.3em; margin:0px; background-color: #fff; color: black; margin:auto; word-wrap: break-word;}
 .wrapper{min-height: 100%; height: auto!important; height:100%; margin: 0 auto -6em;}
 a{color: grey; text-decoration: none;}
 a:hover{color: black; text-decoration: underline;}
@@ -9,7 +9,11 @@ a:hover{color: black; text-decoration: underline;}
 .header a{text-decoration: none; color: black; padding:20px; margin:0px;}
 .header a:hover{color: white; background-color: black;}
 
-.content{padding:30px;}
+.content{padding:10px;}
+.content-left{width:75%; float:left;}
+.content-right{width:20%; float:left; border-left: 1px solid grey; word-wrap: break-word;}
+.content-right ul{list-style-type:none;}
+
 .highlight{background:grey; color:black; padding:4px; border-radius: 5px; border:1px solid white;}
 
 

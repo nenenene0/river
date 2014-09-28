@@ -1,8 +1,6 @@
 <?php
-	require_once (ROOT . DS . 'include' . DS . 'render.inc.php');
-
 	// page rendering starts from here.
-	// render.inc.php takes the final $_content variable and assembles the final page before display.
+	require_once (ROOT . DS . 'include' . DS . 'render.inc.php');
 
 	// check if site is up
 	if($_SITE_STATUS != 'up')
