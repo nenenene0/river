@@ -19,6 +19,7 @@
   <div class="wrapper">
 
     <?php include('header.html'); ?>
+    
     <div class="content">
       <?php echo $this->content; ?>
     </div>
