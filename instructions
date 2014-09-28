@@ -1,8 +1,9 @@
 This is still work in progress:
 
-'Pages'   = Where you can upload your blog articles
-'assets'  = CSS, images, js
-'Config'  = All config goes here
-'include' = PHP helpers
+'/pages'          = Where you can upload your blog articles. Access these by '/page_name.extension'
+'/staticPAges'    = Upload your static pages here. Access these by '/s/static_page_name.extension'
+'/public/assets'  = CSS, images, js
+'/config'         = All config goes here
+'/include'        = PHP helpers
 
 
