@@ -14,9 +14,11 @@
 			else
 				new RenderStatic('page_down.html');
 
-			$this->title = explode('.', $file);
-			$this->title = ucwords(preg_replace('/_/', ' ', $this->title[0])).' | '.$_SITE_NAME;
+			$this->name = explode('.', $file);
+			$this->name = ucwords(preg_replace('/_/', ' ', $this->name[0]));
+			$this->title = $this->name.' | '.$_SITE_NAME;
 			$this->layout = $layout;
+			$this->content = '<h3>' . $this->name . '</h3>' . $this->content;
 
 			// This is a bad practise since this is a class. Need to change.
 			$this->display();
@@ -44,10 +46,11 @@
 			else
 				new RenderStatic('page_down.html');
 
-			$this->title = explode('.', $file);
-			$this->title = ucwords(preg_replace('/_/', ' ', $this->title[0])).' | '.$_SITE_NAME;
-
+			$this->name = explode('.', $file);
+			$this->name = ucwords(preg_replace('/_/', ' ', $this->name[0]));
+			$this->title = $this->name.' | '.$_SITE_NAME;
 			$this->layout = $layout;
+			$this->content = '<h3>' . $this->name . '</h3>' . $this->content;
 
 			// This is a bad practise since this is a class. Need to change.
 			$this->display();

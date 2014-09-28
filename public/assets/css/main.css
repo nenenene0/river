@@ -9,7 +9,6 @@ a:hover{color: black; text-decoration: underline;}
 .header a{text-decoration: none; color: black; padding:20px; margin:0px;}
 .header a:hover{color: white; background-color: black;}
 
-
 .content{padding:30px;}
 .highlight{background:grey; color:black; padding:4px; border-radius: 5px; border:1px solid white;}
 
