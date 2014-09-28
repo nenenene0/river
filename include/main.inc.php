@@ -2,7 +2,7 @@
 	// The main include file... This is the starting point from index.php
 
 	require_once (ROOT . DS . 'config' . DS . 'main.config.php');
-	require_once (ROOT . DS . 'include' . DS . 'page.inc.php');
+	require_once (ROOT . DS . 'include' . DS . 'redirect.inc.php');
 
 	if($_ERRORS_DEBUG == true)
 	{
