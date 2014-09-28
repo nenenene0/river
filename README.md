@@ -3,8 +3,8 @@ River
 
 A simple PHP framework to convert text files in a folder to a full blog website.
 
-> Pull requests are welcome, understand the project goals clearly.
-> Tweets #riverphp @Bhaswanth_Blan
+> Pull requests are welcome, please understand the project goals clearly.
+> Tweets #riverphp @Bhaswanth_Blan are welcome.
 
 Work in progress
 ---------
