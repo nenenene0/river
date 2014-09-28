@@ -1,7 +1,7 @@
 <?php
 
 	// Site settings go here.
-
+	$_SITE_NAME = 'River PHP Framework by Bhaswanth Blan';
 
 
 	// Show errors (Parse errors are not shown by this)

@@ -1,17 +1,41 @@
 <?php
+	require_once (ROOT . DS . 'include' . DS . 'output.inc.php');
 
 	// page rendering starts from here.
 	// render.inc.php takes the final $_content variable and assembles the final page before display.
 
 	// check if site is up
 	if($_SITE_STATUS != 'up')
-		exit(file_get_contents( ROOT . DS . 'static' . DS . 'site_down.html' ));
-
+	{
+		$output = new Render('Site Down', file_get_contents(ROOT . DS . 'staticPages' . DS . 'site_down.html'), false);
+		$output->display();
+		exit();
+	}
 	// check if $url == '' redirect to home page.
 	if($url == '')
-		exit(file_get_contents( ROOT . DS . 'static' . DS . 'home_page.html' ));
+	{
+		$output = new Render('Home', file_get_contents(ROOT . DS . 'staticPages' . DS . 'home_page.html'), true);
+		$output->display();
+		exit();
+	}
+	
+	// check if $url exists, and then pass the file(string) to render.inc.php
+	$file = explode('/', $url);
+	$file = $file[0];
+	$file_path = ROOT . DS . 'pages' . DS . $file;
+	if(file_exists($file_path)) 
+	{
+		$output = new Render($file, file_get_contents($file_path), true);
+		$output->display();
+	}
+	else
+	{
+		$output = new Render($file,'Page Does Not Exist.', true);
+		$output->display();
+	}
 
-	// check if $url exists, and then pass the file along to render.inc.php
-	require_once (ROOT . DS . 'include' . DS . 'render.inc.php');
-	$rendering = new RenderPage();
-	$rendering->render(true);
+
+	exit();
+
+
+
