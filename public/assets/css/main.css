@@ -2,10 +2,17 @@
 html{height:100%;}
 body{width:80%; height:100%; font-family: 'Source Sans Pro', sans-serif;; font-size: 1.3em; margin:0px; background-color: #fff; color: black; margin:auto;}
 .wrapper{min-height: 100%; height: auto!important; height:100%; margin: 0 auto -6em;}
+a{color: grey; text-decoration: none;}
+a:hover{color: black; text-decoration: underline;}
 
 .header{width: auto; background-color: #eee; padding:20px;}
 .header a{text-decoration: none; color: black; padding:20px; margin:0px;}
 .header a:hover{color: white; background-color: black;}
+
+
+.content{padding:30px;}
+.highlight{background:grey; color:black; padding:4px; border-radius: 5px; border:1px solid white;}
+
 
 .footer{text-align: center; position: fixed; bottom: 0px; width: 100%; left: 0px; height:2em;}
 .footer a{color: grey;}

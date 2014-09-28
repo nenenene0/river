@@ -19,7 +19,11 @@
   <div class="wrapper">
 
     <?php include('header.html'); ?>
-    <?php echo $this->content; ?>
+    
+    <div class="content">
+      <?php echo $this->content; ?>
+    </div>
+
     <?php include('footer.html'); ?>
 
   </div>
