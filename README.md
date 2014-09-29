@@ -6,7 +6,7 @@ A simple PHP framework to convert text files in a folder to a full blog website.
 > Pull requests are welcome, please understand the project goals clearly.
 > Tweets #riverphp @Bhaswanth_Blan are welcome.
 
-v1.0 Released
+v1.2 Released
 ---------
 
 Who uses River PHP Framework? (Target Users)
