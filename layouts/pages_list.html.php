@@ -4,7 +4,7 @@
 
 		$output = '';
 		foreach ($this->pagesList as $key) {
-			$output .= '<li><a href="/'. $key .'">'. $key .'</a></li>';
+			$output .= '<li><a href="/'. $key .'">'. ucwords(preg_replace('/_/', ' ', $key)) .'</a></li>';
 		}
 		echo $output;
 	?>
