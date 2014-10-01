@@ -7,7 +7,6 @@
 
 		foreach ($pagesArray as $page) {
 			$tmp[basename($page)] = filemtime($page);
-			# code...
 		}
 		asort($tmp);
 		$pagesArray = array_keys($tmp);
